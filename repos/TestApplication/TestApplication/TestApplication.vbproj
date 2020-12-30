@@ -149,8 +149,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="TestForm.aspx" />
-    <Content Include="TestForm2.aspx" />
+    <Content Include="Form\TestForm.aspx" />
+    <Content Include="Form\TestForm2.aspx" />
+    <Content Include="Form\TestForm3.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -250,18 +251,25 @@
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="TestForm.aspx.designer.vb">
+    <Compile Include="Form\TestForm.aspx.designer.vb">
       <DependentUpon>TestForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TestForm.aspx.vb">
+    <Compile Include="Form\TestForm.aspx.vb">
       <DependentUpon>TestForm.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="TestForm2.aspx.designer.vb">
+    <Compile Include="Form\TestForm2.aspx.designer.vb">
       <DependentUpon>TestForm2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TestForm2.aspx.vb">
+    <Compile Include="Form\TestForm2.aspx.vb">
       <DependentUpon>TestForm2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Form\TestForm3.aspx.designer.vb">
+      <DependentUpon>TestForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TestForm3.aspx.vb">
+      <DependentUpon>TestForm3.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
