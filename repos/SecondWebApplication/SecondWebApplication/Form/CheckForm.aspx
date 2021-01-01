@@ -55,7 +55,8 @@
             <asp:Button ID="Button2" runat="server" Text="送信"/>
         </div>
 
-        <!--
+        <!--  
+         入力範囲を検証する
             MinimumValue～入力範囲の最小値
             MaximumValue～入力範囲の最大値
             Type～入力値のデータ型
@@ -71,8 +72,102 @@
                 ControlToValidate="Birthday" Type="Date"
                 ErrorMessage="誕生日は1985年以降を指定してください"
                 MinimumValue="1850/1/1" MaximumValue="9999/1/1"></asp:RangeValidator>
+
             <asp:Button ID="Button3" runat="server" Text="送信"/>
+        </div><br />
+        <!--
+            入力内容を比較して検証する
+            CompareValidatorコントロール
+                Operator            ～比較方法を指定する
+                    Operatorに入れる値
+                       Equal            ～値が等しい
+                       NotEqual         ～値が等しくない
+                       GreaterThan      ～値が大きい
+                       GreaterThanEqual ～値が等しいか大きい
+                       LessThan         ～値が小さい
+                       LessThanEqual    ～値が等しいか小さい
+                       DateTypeCheck
+                ControlToCompare    ～比較対象のコントロールを指定する
+                ValueToCompare      ～比較対象の低数値を指定する
+                Type                ～入力の型
+            -->
+        <div>
+             生年<asp:TextBox ID="Birth" runat="server" Text=""></asp:TextBox>
+
+             小学校入学年<asp:TextBox ID="Enroll" runat="server" Text=""></asp:TextBox>
+
+            <asp:CompareValidator ID="CompareValidator1" runat="server"
+                                  ErrorMessage="生年は小学校入学年よりも前である必要がある"
+                                  ControlToCompare="Enroll" 
+                                  ControlToValidate="Birth"
+                                  Operator="LessThan" 
+                                  Type="Integer" ></asp:CompareValidator>
+            <asp:CompareValidator ID="CompareValidator2" runat="server"
+                                  ErrorMessage="生年は1850年よりも後である必要がある"
+                                  ControlToValidate="Birth" 
+                                  Operator="GreaterThan"
+                                  ValueToCompare="1850" 
+                                  Type="Integer"></asp:CompareValidator>
+
+            <asp:Button ID="Button4" runat="server" Text="送信"/>
+        </div><br />
+
+
+        <!--正規表現で検証する
+            RegularExpressionValidation-->
+        <div>
+            郵便番号<asp:TextBox ID="TextBox3" runat="server" Text="" Columns="50"></asp:TextBox><br />
+
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
+                                            ErrorMessage="郵便番号を正しく入力して下さい"
+                                            ControlToValidate="TextBox3"
+                                            ValidationExpression="\d{3}(-(\d{4}|\d{2}))?">
+
+            </asp:RegularExpressionValidator><br />
+
+            <asp:Button ID="Button5" runat="server" Text="送信"/>
         </div>
+
+        <div>
+            <!--検証方法をカスタマイズする
+                CustomValidatorコントロール
+                    ServerValidatorイベント           ～サーバーサイドの検証イベント
+                    CilentValidationFunctionプロパティ～クライアントサイドの検証を行う関数名を指定
+              -->
+            入力<asp:TextBox ID="TextBox4" runat="server" Text=""></asp:TextBox>
+
+            <asp:CustomValidator ID="CustomValidator1" runat="server"
+                ErrorMessage="入力内容にASP.NETという文字列が含まれていません"
+                OnServerValidate="CustomValidator1_ServerValidator"
+                ClientValidationFunction ="clientValidate"
+                ControlToValidate="TextBox4"></asp:CustomValidator>
+
+            <asp:Button ID="Button6" runat="server" Text="送信" />
+        </div>
+
+        <!--
+            検証エラーを表示する
+            ValidationSummary
+                ShowMessageBoxプロパティ～エラーメッセージをJavaScriptのalert関数を使ってダイアログ表示する
+                ShowSummary             ～エラーメッセージをWebページ上に表示する
+                DisplayMode             ～表示方式を指定する
+                    List　　　　     ～エラーメッセージごとに改行して表示
+                    BulletList       ～ulタグ(箇条書きリスト)で表示。デフォルト値
+                    SingleParagraph  ～改行せず続けて表示
+
+                HeaderText              ～エラーメッセージの上に表示するテキストを指定する
+            -->
     </form>
+    <script type="text/javascript">
+        //クライアントサイドで検証を行う関数
+        function clientValidate(src, args) {
+            //サーバーサイドと同じく、ASP.NETという文字列が含まれているかどうかで検証
+            if (args.Value.indexOf("ASP.NET") >= 0) {
+                args.IsValid = true;
+            } else {
+                args.IsValid = false;
+            }
+        }
+    </script>
 </body>
 </html>

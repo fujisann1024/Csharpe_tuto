@@ -28,5 +28,20 @@ namespace SecondWebApplication.Form
                 ResultLabel.Text = "検証失敗です";
             }
         }
+      
+        protected void CustomValidator1_ServerValidator(object source, ServerValidateEventArgs args)
+        {
+            //入力された文字列を取得する
+            var text = args.Value;
+            //ASP.NETという文字列が含まれていれば検証成功。含まれていなければ失敗
+            if (text.IndexOf("ASP.NET") >= 0)
+            {
+                args.IsValid = true;
+            }
+            else
+            {
+                args.IsValid = false;
+            }
+        }
     }
 }
