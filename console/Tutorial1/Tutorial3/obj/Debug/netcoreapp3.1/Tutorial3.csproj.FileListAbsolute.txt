@@ -1,0 +1,13 @@
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.exe
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.deps.json
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.runtimeconfig.json
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.runtimeconfig.dev.json
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.dll
+C:\Users\twook\source\console\Tutorial1\Tutorial3\bin\Debug\netcoreapp3.1\Tutorial3.pdb
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.AssemblyInfoInputs.cache
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.AssemblyInfo.cs
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.dll
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.pdb
+C:\Users\twook\source\console\Tutorial1\Tutorial3\obj\Debug\netcoreapp3.1\Tutorial3.genruntimeconfig.cache

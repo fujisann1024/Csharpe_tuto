@@ -38,7 +38,15 @@
                     <asp:HyperLinkField DataNavigateUrlFields="EmployeeId" DataNavigateUrlFormatString="~/Form/GridViewSample.aspx?EmployeeId={0}" Text="詳細" />
                     <asp:BoundField DataField="EmployeeId" HeaderText="社員ID" ReadOnly="True" SortExpression="EmployeeId" />
                     <asp:BoundField DataField="Name" HeaderText="氏名" SortExpression="Name" />
-                    <asp:BoundField DataField="DepartmentId" HeaderText="課" SortExpression="DepartmentId" />
+                    <asp:TemplateField HeaderText="課" SortExpression="DepartmentId">                        
+                        <EditItemTemplate>
+                            <asp:DropDownList ID="DropDownList1" runat="server">
+                            </asp:DropDownList>
+                        </EditItemTemplate>
+                        <ItemTemplate>
+                            <asp:Label ID="Label1" runat="server" Text='<%# Bind("DepartmentName") %>'></asp:Label>
+                        </ItemTemplate>
+                    </asp:TemplateField>
                     <asp:BoundField DataField="Birthday" HeaderText="誕生日" SortExpression="Birthday" DataFormatString="{0:yyyy/MM/dd}" />
                     <asp:BoundField DataField="Sales" HeaderText="当期売上高" SortExpression="Sales" DataFormatString="{0:C}" />
                     <asp:BoundField DataField="TelNo" HeaderText="電話番号" SortExpression="TelNo" />
@@ -65,7 +73,8 @@
                 ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
                 DeleteCommand="DELETE FROM [Employees] WHERE [EmployeeId] = @EmployeeId" 
                 InsertCommand="INSERT INTO [Employees] ([EmployeeId], [Name], [DepartmentId], [Birthday], [Sales], [TelNo], [Sex]) VALUES (@EmployeeId, @Name, @DepartmentId, @Birthday, @Sales, @TelNo, @Sex)"
-                SelectCommand="SELECT * FROM [Employees]" 
+                SelectCommand="SELECT Departments.Name AS DepartmentName, Employees.* FROM Departments
+                               INNER JOIN Employees ON Departments.DepartmentId = Employees.DepartmentId" 
                 UpdateCommand="UPDATE [Employees] SET [Name] = @Name, [DepartmentId] = @DepartmentId, [Birthday] = @Birthday, [Sales] = @Sales, [TelNo] = @TelNo, [Sex] = @Sex WHERE [EmployeeId] = @EmployeeId">
                 <DeleteParameters>
                     <asp:Parameter Name="EmployeeId" Type="Int32" />
