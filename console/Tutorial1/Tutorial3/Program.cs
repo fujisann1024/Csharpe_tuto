@@ -32,6 +32,7 @@ namespace Tutorial3
                 double number1_inv = 1.0 / number1;
                 Console.Write("1/{0} = {1}", number1, number1_inv);
             }
+            Console.Write("");
 
             Console.Write("整数を入力して下さい:");
 
@@ -47,8 +48,58 @@ namespace Tutorial3
             //条件演算子で偶奇判定
             parity2 = number2 % 2 == 1 ? "odd" : "even";
 
+            //switch文
             Console.Write("if{0},三項演算子{1}",parity1,parity2);
+            Console.Write("");
 
+            Console.Write("整数を入力して下さい");
+
+            int number3;
+            number3 = int.Parse(Console.ReadLine());
+
+            switch (number3) {
+                //caseの値が一致したときに実行する
+                case 1:
+                    Console.WriteLine("あなたが入力した数字は1です");
+                    break;
+                case 2:
+                    Console.WriteLine("あなたが入力した数字は2です");
+                    break;
+                case 3:
+                    Console.WriteLine("あなたが入力した数字は3です");
+                    break;
+                //変数の値がどの値とも異なるときに実行される
+                default:
+                    Console.WriteLine("あなたが入力した数字はデータに入っていません");
+                    break;
+
+            }
+
+            Console.Write("");
+
+            Console.Write("整数を入力して下さい");
+
+
+            //型による分岐(Ver7)
+            int number4 = int.Parse(Console.ReadLine());
+            switch (number4)
+            {
+                case int a:
+                    //型が一致しているときに実行
+                    //その方に変換した結果が変数にはいる
+                    Console.WriteLine("結果" + a);
+                    break;
+
+            }
+
+            switch (number4) {
+                //値が0より大きいときnに値を代入しコンソールに表示される
+                case int n when n > 0:
+                    Console.WriteLine("結果" + n);
+                    break;
+            }
+
+           
         }
     }
 }
