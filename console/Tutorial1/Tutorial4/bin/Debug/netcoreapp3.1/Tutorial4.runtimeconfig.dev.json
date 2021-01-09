@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\twook\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\twook\\.nuget\\packages"
+    ]
+  }
+}

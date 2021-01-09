@@ -7,7 +7,8 @@ namespace Tutorial2
         static void Main(string[] args)
         {
             //オペランド～演算の対象
-            int number1 = 9,number2 = 5;
+            int number1 = 9,
+                number2 = 5;
 
             //算術演算子
             int sum = number1 + number2;
