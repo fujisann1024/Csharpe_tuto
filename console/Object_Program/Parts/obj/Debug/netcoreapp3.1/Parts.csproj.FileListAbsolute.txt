@@ -1,0 +1,13 @@
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.exe
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.deps.json
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.runtimeconfig.json
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.runtimeconfig.dev.json
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.dll
+C:\Users\twook\source\console\Object_Program\Parts\bin\Debug\netcoreapp3.1\Parts.pdb
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.AssemblyInfoInputs.cache
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.AssemblyInfo.cs
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.dll
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.pdb
+C:\Users\twook\source\console\Object_Program\Parts\obj\Debug\netcoreapp3.1\Parts.genruntimeconfig.cache
