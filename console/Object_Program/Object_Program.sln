@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car", "Object1\Car.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parts", "Parts\Parts.csproj", "{3FA88D53-5F3D-4038-8998-90B573250A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Human", "Human\Human.csproj", "{A7856FAB-0271-4641-B287-BF3668F248AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Human", "Human\Human.csproj", "{A7856FAB-0271-4641-B287-BF3668F248AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports", "Sports\Sports.csproj", "{69C37150-9275-40FE-BE74-4674967BBB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness", "Bussiness\Bussiness.csproj", "{3675F803-0DAE-45F5-A785-FFF170947129}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{A7856FAB-0271-4641-B287-BF3668F248AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7856FAB-0271-4641-B287-BF3668F248AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7856FAB-0271-4641-B287-BF3668F248AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C37150-9275-40FE-BE74-4674967BBB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C37150-9275-40FE-BE74-4674967BBB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C37150-9275-40FE-BE74-4674967BBB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C37150-9275-40FE-BE74-4674967BBB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3675F803-0DAE-45F5-A785-FFF170947129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3675F803-0DAE-45F5-A785-FFF170947129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3675F803-0DAE-45F5-A785-FFF170947129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3675F803-0DAE-45F5-A785-FFF170947129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

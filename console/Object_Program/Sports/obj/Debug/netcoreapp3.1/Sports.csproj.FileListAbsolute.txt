@@ -1,0 +1,13 @@
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.exe
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.deps.json
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.runtimeconfig.json
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.runtimeconfig.dev.json
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.dll
+C:\Users\twook\source\console\Object_Program\Sports\bin\Debug\netcoreapp3.1\Sports.pdb
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.AssemblyInfoInputs.cache
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.AssemblyInfo.cs
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.dll
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.pdb
+C:\Users\twook\source\console\Object_Program\Sports\obj\Debug\netcoreapp3.1\Sports.genruntimeconfig.cache
