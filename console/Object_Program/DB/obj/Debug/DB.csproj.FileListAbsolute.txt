@@ -1,0 +1,7 @@
+C:\Users\twook\source\console\Object_Program\DB\bin\Debug\DB.exe.config
+C:\Users\twook\source\console\Object_Program\DB\bin\Debug\DB.exe
+C:\Users\twook\source\console\Object_Program\DB\bin\Debug\DB.pdb
+C:\Users\twook\source\console\Object_Program\DB\obj\Debug\DB.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Object_Program\DB\obj\Debug\DB.exe
+C:\Users\twook\source\console\Object_Program\DB\obj\Debug\DB.pdb

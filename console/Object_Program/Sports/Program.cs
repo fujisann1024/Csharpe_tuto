@@ -99,12 +99,17 @@ namespace Sports
             Children1 chil1 = new Children1();
             Children2 chil2 = new Children2();
 
-            Parent parent = new Parent();
-            Children1 children = new Children1();
+            Parent parent;
+            Children1 children;
 
             parent = chil1;             //アップキャスト～明示的なキャスト不要
-            parent = (Parent)children;  //ダウンキャスト～明示的なキャスト必要
+            children = (Children1)parent;  //ダウンキャスト～明示的なキャスト必要
 
+            parent = chil2;
+            children = (Children1)parent; //コンパイルは通るが実行エラー
+
+
+            
         }   
 
 
