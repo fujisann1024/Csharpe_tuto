@@ -1,0 +1,7 @@
+C:\Users\twook\source\console\Object_Program\TestDB2\bin\Debug\TestDB2.exe.config
+C:\Users\twook\source\console\Object_Program\TestDB2\bin\Debug\TestDB2.exe
+C:\Users\twook\source\console\Object_Program\TestDB2\bin\Debug\TestDB2.pdb
+C:\Users\twook\source\console\Object_Program\TestDB2\obj\Debug\TestDB2.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\TestDB2\obj\Debug\TestDB2.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Object_Program\TestDB2\obj\Debug\TestDB2.exe
+C:\Users\twook\source\console\Object_Program\TestDB2\obj\Debug\TestDB2.pdb

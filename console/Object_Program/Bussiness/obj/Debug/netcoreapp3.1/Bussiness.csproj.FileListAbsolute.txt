@@ -1,0 +1,4 @@
+C:\Users\twook\source\console\Object_Program\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.AssemblyInfoInputs.cache
+C:\Users\twook\source\console\Object_Program\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.AssemblyInfo.cs
+C:\Users\twook\source\console\Object_Program\Bussiness\obj\Debug\netcoreapp3.1\Bussiness.csproj.CoreCompileInputs.cache

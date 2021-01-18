@@ -1,0 +1,4 @@
+C:\Users\twook\source\console\Object_Program\Human\obj\Debug\netcoreapp3.1\Human.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\Human\obj\Debug\netcoreapp3.1\Human.AssemblyInfoInputs.cache
+C:\Users\twook\source\console\Object_Program\Human\obj\Debug\netcoreapp3.1\Human.AssemblyInfo.cs
+C:\Users\twook\source\console\Object_Program\Human\obj\Debug\netcoreapp3.1\Human.csproj.CoreCompileInputs.cache

@@ -1,0 +1,7 @@
+C:\Users\twook\source\console\Object_Program\God\bin\Debug\God.exe.config
+C:\Users\twook\source\console\Object_Program\God\bin\Debug\God.exe
+C:\Users\twook\source\console\Object_Program\God\bin\Debug\God.pdb
+C:\Users\twook\source\console\Object_Program\God\obj\Debug\God.csprojAssemblyReference.cache
+C:\Users\twook\source\console\Object_Program\God\obj\Debug\God.csproj.CoreCompileInputs.cache
+C:\Users\twook\source\console\Object_Program\God\obj\Debug\God.exe
+C:\Users\twook\source\console\Object_Program\God\obj\Debug\God.pdb
