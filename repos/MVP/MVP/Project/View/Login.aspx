@@ -42,6 +42,18 @@
             </div>
             <asp:Button ID="loginButton" runat="server" Text="ログイン" OnClick="loginButton_Click"/>
         </div>
+
+        <div>
+
+            <div>
+                <asp:Label ID="emailCookie" runat="server">メールアドレス(Cookie)</asp:Label>
+                <asp:Label ID="passwordCookie" runat="server">パスワード(Cookie)</asp:Label>
+            </div>
+        </div>
+
+        <div>　
+            <asp:Button ID="Check_Login" runat="server" Text="確認画面へ移動" OnClick="checkButton_Click"/>
+        </div>
     </form>
 </body>
 </html>

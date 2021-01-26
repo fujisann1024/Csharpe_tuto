@@ -124,9 +124,12 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Project\View\header.aspx" />
+    <Content Include="Project\View\Sample.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Project\View\Http.aspx" />
     <Content Include="Project\View\Login.aspx" />
+    <Content Include="Project\View\LoginCheck.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -188,6 +191,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Project\View\header.aspx.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\View\header.aspx.designer.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Project\View\Http.aspx.cs">
       <DependentUpon>Http.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,6 +211,20 @@
     </Compile>
     <Compile Include="Project\View\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\View\LoginCheck.aspx.cs">
+      <DependentUpon>LoginCheck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\View\LoginCheck.aspx.designer.cs">
+      <DependentUpon>LoginCheck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\View\Sample.Master.cs">
+      <DependentUpon>Sample.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\View\Sample.Master.designer.cs">
+      <DependentUpon>Sample.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
