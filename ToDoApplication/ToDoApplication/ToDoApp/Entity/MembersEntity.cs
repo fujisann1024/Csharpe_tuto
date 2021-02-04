@@ -8,138 +8,99 @@ namespace ToDoApplication.ToDoApp.Entity
     public class MembersEntity
     {
 
-        private int _id;
-        private string _name;
-        private int _age;
-        private string _address;
-        private string _email;
-        private string _password;
-        private string _gender;
-        private DateTime _birthday;
-        private bool _lockAccountFlag;
-        private bool _leaveFlag;
-        private DateTime _createdAt;
-        private DateTime _updatedAt;
+        
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+
+        public string Address { get; set; }
+
+        public string Email { get; set; }
 
 
+        public string Password { get; set; }
 
-        public MembersEntity()
+        public string Gender { get; set; }
+
+        public DateTime Birthday { get; set; }
+
+        public bool LockAccountFlag { get; set; }
+        
+        public bool LeaveFlag { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+        
+
+        public DateTime UpdatedAt { get; set; }
+
+        /// <summary>
+        /// ユーザー
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="age"></param>
+        /// <param name="address"></param>
+        /// <param name="gender"></param>
+        /// <param name="birthday"></param>
+        public MembersEntity(
+            string name,
+            int age,
+            string address,
+            string gender,
+            DateTime birthday
+            ) 
         {
-
-        }
-        
-        public int Id {
-            get
-            {
-                if(this._id != null)
-                {
-                    return this._id;
-                }
-                return 0;
-            }
+            this.Name = name;
+            this.Age = age;
+            this.Address = address;
+            this.Gender = gender;
+            this.Birthday = birthday;
         }
 
-        public string Name {
-            get 
-            {
-                if (this._name != null)
-                {
-                    return this._name;
-                }
-                return "";
-            } 
-        }
+        /// <summary>
+        /// ユーザー情報
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="name"></param>
+        /// <param name="age"></param>
+        /// <param name="address"></param>
+        /// <param name="email"></param>
+        /// <param name="password"></param>
+        /// <param name="gender"></param>
+        /// <param name="birthday"></param>
+        /// <param name="lockAccountFlag"></param>
+        /// <param name="leaveFlag"></param>
+        /// <param name="createdAt"></param>
+        /// <param name="updatedAt"></param>
+        public MembersEntity(
+            int id,
+            string name,
+            int age,
+            string address,
+            string email,
+            string password,
+            string gender,
+            DateTime birthday,
+            bool lockAccountFlag,
+            bool leaveFlag,
+            DateTime createdAt,
+            DateTime updatedAt
+            ) 
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Age = age;
+            this.Address = address;
+            this.Email = email;
+            this.Password = password;
+            this.Gender = gender;
+            this.Birthday = birthday;
+            this.LockAccountFlag = lockAccountFlag;
+            this.LeaveFlag = leaveFlag;
+            this.CreatedAt = createdAt;
+            this.UpdatedAt = updatedAt;
 
-        public int Age {
-            get
-            {
-                if (this._age != null)
-                {
-                    return this._age;
-                }
-                return 0;
-            }
-        }
-
-        public string Address {
-            get
-            {
-                if (this._address != null)
-                {
-                    return this._address;
-                }
-                return "";
-            }
-        }
-
-        public string Email {
-            get
-            {
-                if (this._email != null)
-                {
-                    return this._email;
-                }
-                return "";
-            }
-        }
-
-        public string Password {
-            get
-            {
-                if (this._password != null)
-                {
-                    return this._password;
-                }
-                return "";
-            }
-        }
-
-        public string Gender {
-            get
-            {
-                if (this._gender != null)
-                {
-                    return this._gender;
-                }
-                return "";
-            }
-        }
-
-        public DateTime Birthday {
-            get
-            {
-                if (this._birthday != null)
-                {
-                    return this._birthday;
-                }
-                return "";
-            }
-        }
-
-        public bool LockAccountFlag { get; }
-        
-        public bool LeaveFlag { get; }
-
-        public DateTime CreatedAt {
-            get
-            {
-                if (this._createdAt != null)
-                {
-                    return this.CreatedAt;
-                }
-                return "";
-            }
-        }
-
-        public DateTime UpdatedAt {
-            get
-            {
-                if (this._updatedAt != null)
-                {
-                    return this._updatedAt;
-                }
-                return "";
-            }
         }
 
     }
